@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkmode</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Explicabo doloribus iusto ratione quia? Ratione dignissimos odio, 
+             officia ad commodi, 
+             fugit similique saepe possimus deserunt
+             aperiam dolorem quia inventore sit quam?</p>
+    </section>
+    <ul>
+        <li>
+            <span>Dark</span>
+            <span>Light</span>
+        </li>
+        
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('ul').click(function(){
+                $('ul').toggleClass('active')
+                $('section').toggleClass('dark')
+
+                 })
+             })
+            
+            </script>
+
+    
+</body>
+</html>
